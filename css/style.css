@@ -1,0 +1,16 @@
+/* font-family: 'Catamaran', sans-serif;
+font-family: 'Yeseva One', cursive; */
+
+/* #205072
+#329D9C
+#56C596
+#7BE495
+#CFF4D2 */
+
+body {
+    font-family: "Catamaran", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Yeseva One", cursive;
+}
