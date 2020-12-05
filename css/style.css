@@ -1,6 +1,17 @@
 /* font-family: 'Catamaran', sans-serif;
 font-family: 'Yeseva One', cursive; */
 
+/* Code to check grid layout */
+.col{
+    border: solid 1px blue;
+    margin:5px;
+  }
+  .row {
+      border: solid 4px red;
+      margin:2px;
+  } 
+/* End Code to check grid layout */
+
 /* #205072
 #329D9C
 #56C596
@@ -13,4 +24,12 @@ body {
 
 h1, h2, h3 {
     font-family: "Yeseva One", cursive;
+}
+
+nav {
+    font-family: "Catamaran", sans-serif; 
+}
+
+.navbar-brand {
+    font-family: "Yeseva One", cursive;  
 }
