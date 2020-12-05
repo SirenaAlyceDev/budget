@@ -2,14 +2,14 @@
 font-family: 'Yeseva One', cursive; */
 
 /* Code to check grid layout */
-.col{
+/* .col{
     border: solid 1px blue;
     margin:5px;
   }
   .row {
       border: solid 4px red;
       margin:2px;
-  } 
+  }  */
 /* End Code to check grid layout */
 
 /* #205072
@@ -32,4 +32,60 @@ nav {
 
 .navbar-brand {
     font-family: "Yeseva One", cursive;  
+}
+
+.hero {
+    height: 50vh;
+}
+
+.btn {
+    background-color: #56C596;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #fff;
+    text-shadow: 2px 2px 8px #205072;
+    font-family: "Yeseva One", cursive;  
+}
+
+.btn-instagram, .btn-facebook, .btn-twitter, .btn-github {
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border: none;
+}
+
+ul.hero-social {
+    list-style-type: none;
+}
+
+.temp1 {
+    background: rgb(32,80,114);
+    background: linear-gradient(75deg, rgba(32,80,114,1) 0%, rgba(86,197,150,1) 59%, rgba(207,244,210,1) 100%);
+    border-radius: 25px;
+    color: #ffffff;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signup-div {
+    height: 50vh;
+}
+
+.signup {
+    background: rgb(32,80,114);
+    color: #ffffff; 
+    border-radius: 25px; 
+    padding: 50px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.budget-style {
+    background: rgb(32,80,114);
+    color: #ffffff; 
+    border-radius: 25px; 
+    padding: 50px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.benefits h3{
+    color: #329D9c;
 }

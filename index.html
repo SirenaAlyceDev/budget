@@ -11,8 +11,8 @@
 
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&family=Yeseva+One&display=swap"
-        rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&family=Yeseva+One&display=swap">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/style.css">
 
     <title>The B-Word</title>
@@ -32,70 +32,80 @@
                 <a class="nav-link" href="#">FAQ</a>
                 <a class="nav-link" href="#">Blog</a>
             </div>
-            <button class="btn">Login</button>
-            <button class="btn">Start Now!</button>
+            <button class="btn mx-2">Login</button>
+            <button class="btn mx-2">Start Now!</button>
         </div>
     </nav>
+
     <div class="container">
-        <div class="row hero">
+        <div class="row hero align-items-center">
             <div class="col">
                 <h1>HEADLINE</h1>
                 <h2>subheadline</h2>
-                <button class="btn">DTA</button>
+                <button class="btn btn-sm">Start Your B-Word</button>
             </div>
-            <div class="col">
-                image
+            <div class="col text-center">
+                <img src="img/example-19.svg" class="img-fluid mx-auto d-block" alt="Responsive image">
             </div>
             <div class="col col-2">
-                social icons go here vertically
+                <ul class="hero-social">
+                    <li class="my-2"><a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                                class="fa fa-instagram"></i></a></li>
+                    <li class="my-2"><a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                                class="fa fa-facebook"></i></a></li>
+                    <li class="my-2"><a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a></li>
+                    <li class="my-2"><a class="btn btn-social-icon btn-github" href="http://github.com/"><i
+                                class="fa fa-github"></i></a></li>
+                </ul>
             </div>
         </div>
-        <div class="row">
+
+        <div class="row my-5 align-items-center">
             <div class="col">
-                image
+                <img src="img/Pig.svg" class="img-fluid mx-auto d-block" alt="Responsive image">
             </div>
-            <div class="col">
-                <div class="row">
-                    <div class="col"></div>
-                    <div class="col">
-                        <h3>Choose the Budgeting Template Right for you</h3>
-                    </div>
-                    <div class="col"></div>
-                </div>
+            <div class="col temp1 text-center">
+                <h3>Choose the Budgeting Template Right for you</h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
+        <div class="row my-5 align-items-center signup-div">
+            <div class="col signup text-center">
                 <h2>Sign Up</h2>
                 <h3>subheadline</h3>
                 <button class="btn">Let's Get Started</button>
             </div>
             <div class="col">
-                image
+                <img src="img/wallet.svg" class="img-fluid mx-auto d-block" alt="Responsive image">
             </div>
         </div>
-        <div class="row">
+        <div class="row text-center benefits align-items-center benefits">
             <div class="col">
-                benefit 1
+                <h3>Debt Reduction</h3>
+                <p>Lemon drops candy canes chocolate lollipop chocolate apple pie bear claw. Caramels caramels sugar plum sesame snaps croissant croissant marshmallow. Pastry tiramisu cake oat cake cupcake jelly beans pastry chupa chups. Toffee lollipop sesame snaps jelly beans lollipop halvah jujubes.</p>
             </div>
             <div class="col">
-                benefit 2
+                <h3>Savings &amp; Goal Attainment</h3>
+                <p>Lemon drops candy canes chocolate lollipop chocolate apple pie bear claw. Caramels caramels sugar plum sesame snaps croissant croissant marshmallow. Pastry tiramisu cake oat cake cupcake jelly beans pastry chupa chups. Toffee lollipop sesame snaps jelly beans lollipop halvah jujubes.</p>
             </div>
             <div class="col">
-                benefit 3
+                <h3>Improved Relationship With Money</h3>
+                <p>Lemon drops candy canes chocolate lollipop chocolate apple pie bear claw. Caramels caramels sugar plum sesame snaps croissant croissant marshmallow. Pastry tiramisu cake oat cake cupcake jelly beans pastry chupa chups. Toffee lollipop sesame snaps jelly beans lollipop halvah jujubes.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row budget-style">
             <div class="col">
-                <h2>What Is Your Budgeting Style</h2>
-                <button class="btn">Let's Find Out</button>
+                <h2 class="d-flex justify-content-center">What Is Your Budgeting Style</h2>
+                <div class="text-center">
+                    <button class="btn">Let's Find Out</button>
+                </div>
             </div>
         </div>
     </div>
 
     <footer class="container">
         <div class="col">
-            <h1>Footer stuff goes here</h1>
+            <p>Footer stuff goes here</p>
         </div>
     </footer>
 
