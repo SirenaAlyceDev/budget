@@ -2,14 +2,14 @@
 font-family: 'Yeseva One', cursive; */
 
 /* Code to check grid layout */
-/* .col{
+.col{
     border: solid 1px blue;
     margin:5px;
   }
   .row {
       border: solid 4px red;
       margin:2px;
-  }  */
+  } 
 /* End Code to check grid layout */
 
 /* #205072
@@ -20,6 +20,8 @@ font-family: 'Yeseva One', cursive; */
 
 body {
     font-family: "Catamaran", sans-serif;
+    /* background: rgb(32,80,114);
+background: linear-gradient(75deg, rgba(32,80,114,1) 0%, rgba(86,197,150,1) 59%, rgba(207,244,210,1) 100%); */
 }
 
 h1, h2, h3 {
@@ -38,18 +40,24 @@ nav {
     height: 50vh;
 }
 
-.btn {
-    background-color: #56C596;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: #fff;
-    text-shadow: 2px 2px 8px #205072;
+li.rotate {
+    font-size: 12px;
+    transform: rotate(-90deg);
+    /* margin-top: 20px; */
+}
+.cta {
+    /* background-color: #56C596; */
+    /* border-radius: 25px; */
+    border: 1px solid #205072;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    color: #205072;
+    /* text-shadow: 2px 2px 8px #205072; */
     font-family: "Yeseva One", cursive;  
 }
 
-.btn-instagram, .btn-facebook, .btn-twitter, .btn-github {
+.btn-social-icon {
     background-color: transparent !important;
-    color: #ffffff !important;
+    color: #329D9C !important;
     border: none;
 }
 
@@ -66,6 +74,9 @@ ul.hero-social {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.choose-template {
+}
+
 .signup-div {
     height: 50vh;
 }
@@ -79,11 +90,11 @@ ul.hero-social {
 }
 
 .budget-style {
-    background: #329d9c;
-    color: #ffffff; 
-    border-radius: 25px; 
+    /* background: #329d9c; */
+    color: #205072; 
+    /* border-radius: 25px;  */
     padding: 50px; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .benefits h3{
